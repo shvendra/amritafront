@@ -11,10 +11,10 @@ export default function Testimonials() {
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Don't take our word for it</h2>
             <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
-          </div>
+          </div> */}
 
           {/* Testimonials */}
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
@@ -29,10 +29,20 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+              <blockquote className="text-lg text-gray-400 grow1 grow">
+                Developed by:
+Aniket Mishra
+@ch.en.u4cys20004@ch.students.amrita.edu
+
+Jayanta Sikdar
+@ch.en.u4cys20031@ch.students.amrita.edu
+under the supervision of, Dr. S Udhaya
+Kumar
+
+dept of CSE-CYS.</blockquote>
+              {/* <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
-              </div>
+              </div> */}
             </div>
 
             {/* 2nd testimonial */}
@@ -45,10 +55,14 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+              <blockquote className="text-lg text-gray-400 grow1 grow">What’s Coming next ???
+AI Powered Search Engine
+
+Drop your suggestions @
+amritaspacechennai@gmail.com</blockquote>
+              {/* <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
-              </div>
+              </div> */}
             </div>
 
             {/* 3rd testimonial */}
@@ -61,10 +75,12 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+              <blockquote className="text-lg text-gray-400 grow1 grow">Testimonials
+
+incoming</blockquote>
+              {/* <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
-              </div>
+              </div> */}
             </div>
 
           </div>

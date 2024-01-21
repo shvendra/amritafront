@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Open PRO',
+  title: 'Home - Amrita Vishwa Vidyapeetham',
   description: 'Page description',
 }
 
@@ -13,10 +13,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
-      <Zigzag />
       <Testimonials />
-      <Newsletter />
     </>
   )
 }

@@ -20,3 +20,171 @@
 [x-cloak=""] {
     display: none;
 }
+
+.floatright {
+    float: right;
+    min-width:100% !important;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .bg-purple-600 {
+    background-color: rgba(181,29,72,255) !important; 
+  }
+  .bg-purple-600:hover {
+    background-color: rgb(168 52 85) !important;
+  }
+  .bg-gray-900 {
+    background-color: white !important;
+  }
+  .text-gray-200 {
+    color: black !important;
+  }
+  .text-purple-600 {
+    color: rgb(168 52 85) !important;
+  }
+  .text-purple-600:hover {
+    background-color: rgb(249, 7, 75) !important;
+  }
+  .text-gray-400:hover {
+    color: rgb(168 52 85) !important;
+  }
+  .otp {
+    color: black !important;
+    width: 55px !important;
+  }
+  .center {
+    margin: auto;
+    width: 75%;
+    border: 3px solid rgb(235, 79, 18);
+    padding: 10px;
+  }
+  .boldfont {
+    font-size: larger !important;
+    font-weight: bolder !important;
+    padding: 19px !important;    }
+    .p-column-filter-menu-button {
+      display: none !important;
+    }
+
+    .text-gray-400, .text-gray-300 {
+      font-weight: bolder !important;
+      color: black !important;
+    }
+
+    .grow1 {
+      color: white !important;
+      word-wrap: break-word;
+    }
+.whiteback {
+  background-color:  rgb(168 52 85) !important;
+  color: white !important;
+}
+
+
+    /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.btnp {
+  width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    box-shadow: 13px 9px 26px -7px rgba(0, 0, 0, 0.16), -2px -3px 26px -7px rgba(255, 255, 255, 1);
+    background: #E9DADB;
+    border: 0;
+    position: relative;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #E8BAB8;
+    display: inline-block;
+}
+
+.circle.active {
+    border-color: #A2F0CF;
+}
+
+.line {
+    width: 10px;
+    height: 10px;
+    background: #E8BAB8;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line.active {
+    background: #A2F0CF;
+}
+
+.btnp:active,
+.btnp:focus {
+    border: 0;
+    outline: none;
+}
+
+.btnp.active {
+    box-shadow: inset 7px 6px 15px -7px rgba(0, 0, 0, 0.17), inset -6px -5px 26px -6px rgba(255, 255, 255, 0.6);
+}
+.aligncenter {
+  text-align: center !important;
+}
+.dname {
+  font-weight: bolder !important;
+  font-size: 15px !important;
+}
+.publish {
+  background-color: green !important;
+}
+.pending {
+  background-color: red !important;
+}
