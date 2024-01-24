@@ -1,4 +1,4 @@
-export const API_URL = 'https://51.20.56.202/:5055';
+export const API_URL = 'http://13.53.174.149/:5055';
 export const apiConstants = {
   BASE_URL: API_URL,  
   REGISTER_API_URL: API_URL + "/api/admin/register",
